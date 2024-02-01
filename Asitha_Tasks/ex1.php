@@ -1,11 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Getting Started with PHP - Asitha</title>
-</head>
-<body>
+<?php 
+    $title ="Exercise 1: Getting Started with PHP - Asitha ";
+include 'header.php'; ?>
+        <section id="plan">
+            <div class="tourPlan text-center">
+                <div class="row">
+                    <div class="col">
+                        <h1>EXERCISE 1</h1>
+                    </div>
+                </div>
+                <div class="container text-left">
+                    <div class="row tourPlanCards">
+                        <div class="col-md-12">
     <h3>3.1 Write PHP code to output the following message:
     Hello world! My name is "David"
     </h3>
@@ -47,5 +52,5 @@
         development environment setup and include it as an image in the "ex1.php" file.
     <img src="images/24.png" alt="Web Development Environment">
 </h3>
-</body>
-</html>
+</div></div>
+<?php include 'footer.php'; ?>

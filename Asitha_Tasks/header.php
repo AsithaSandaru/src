@@ -62,17 +62,16 @@
         <section id="home">
             <div class="section text-center">
                 <div class="row">
-                <div class="video-container col embed-responsive embed-responsive-16by9">
-                        <video autoplay muted loop class="video-bg embed-responsive-item">
-                        
-                            <source src="assets/video/ambuluwawa.mp4">
-                        </video>
-                        
-                    </div>
                 <div class="textOnVideo col">
-                        <h1>WEB PROGRAMMING EXERCISES</h1>
+                        <h1>WEB PROGRAMMING DEVELOPMENT</h1>
+                        <h3>Explore new places with us, with lifelong memories</h3>
                     </div>
-                    
+                    <div class="video-container col embed-responsive embed-responsive-16by9">
+                        <video autoplay muted loop class="video-bg embed-responsive-item">
+                            <!--<source src="assets/video/ambuluwawa.mp4">-->
+                        </video>
+                        <a href="#booking" class="btn btn-warning btn-header-book mx-auto">Book Now</a>
+                    </div>
                 </div>
             </div> 
         </section>
