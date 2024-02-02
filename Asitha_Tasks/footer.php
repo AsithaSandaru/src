@@ -2,6 +2,17 @@
 
 <!-- footer -->
 <section id="footer">
+
+<?php
+    $current_file_name = basename($_SERVER['PHP_SELF']);
+    echo "File Name: " . $current_file_name . "<br>";
+    $file_last_modified = filemtime(__FILE__);
+    echo "Last modified: " . date("F d Y H:i:s.", $file_last_modified);
+?>
+
+
+
+
     <div class="footer text-center">
         <div class="container">
             <div class="row">
@@ -58,6 +69,9 @@
     </div> <!--footer-->
 </section>
 </div> <!--container-->
+
+
+
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"

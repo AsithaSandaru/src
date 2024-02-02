@@ -1,13 +1,10 @@
 <?php 
 
 $title = "Exercise 3";
-include 'Ex2/header.php';
+include 'header.php';
 
-$nimi= $_POST["nimi"]
-$email=$_POST["email"]
+$firstname = $_POST['firstname'];
+$lastname = $_POST['lastname'];
+echo "<h3>Hello $firstname $lastname, You are welcome to my site.</h3>";
 
-echo "Hello" .$nimi. "your email id is" .$email;
-
-?>
-
-<?php include 'Ex2/footer.php';?>
+include 'footer.php'; ?>
