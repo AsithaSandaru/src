@@ -17,7 +17,7 @@
                 <h3>02. If-Else: Write a PHP script to get inputs (age and name) from the user and based on their age, decide if he/she 
                     is eligible for voting. (18 or more than 18 years is eligible for voting, use form to get user input).</h3>
               
-                    <<div class="row justify-content-center">
+                    <div class="row justify-content-center">
     <div class="col-md-4">
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
             <div class="form-group">
